@@ -1,0 +1,38 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1.3 (lin64) Build 2644227 Wed Sep  4 09:44:18 MDT 2019
+| Date         : Thu Nov 24 10:55:11 2022
+| Host         : julious-Inspiron-14-3467 running 64-bit Ubuntu 20.04.4 LTS
+| Command      : report_utilization -hierarchical -file top_utilization_hierarchical_place.rpt
+| Design       : top
+| Device       : 7a100tcsg324-1
+| Design State : Fully Placed
+-----------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++----------------------------+------------------+------------+------------+---------+------+------+--------+--------+--------------+
+|          Instance          |      Module      | Total LUTs | Logic LUTs | LUTRAMs | SRLs |  FFs | RAMB36 | RAMB18 | DSP48 Blocks |
++----------------------------+------------------+------------+------------+---------+------+------+--------+--------+--------------+
+| top                        |            (top) |       2375 |       2359 |      16 |    0 | 1894 |     18 |      8 |            4 |
+|   (top)                    |            (top) |        251 |        235 |      16 |    0 |  601 |     17 |      0 |            0 |
+|   Top_teclado              |      Top_teclado |         26 |         26 |       0 |    0 |   38 |      0 |      0 |            0 |
+|     div_T                  |  Divisor_Teclado |          1 |          1 |       0 |    0 |   17 |      0 |      0 |            0 |
+|     lec_F                  |       LectorFila |          4 |          4 |       0 |    0 |    5 |      0 |      0 |            0 |
+|     teclado                |          Teclado |         21 |         21 |       0 |    0 |   16 |      0 |      0 |            0 |
+|   VexRiscv                 |         VexRiscv |       2096 |       2096 |       0 |    0 | 1251 |      1 |      8 |            4 |
+|     (VexRiscv)             |         VexRiscv |        844 |        844 |       0 |    0 | 1087 |      0 |      2 |            4 |
+|     IBusCachedPlugin_cache | InstructionCache |        712 |        712 |       0 |    0 |   99 |      1 |      1 |            0 |
+|     dataCache_1            |        DataCache |        541 |        541 |       0 |    0 |   65 |      0 |      5 |            0 |
+|   movimiento               |       movimiento |          2 |          2 |       0 |    0 |    4 |      0 |      0 |            0 |
++----------------------------+------------------+------------+------------+---------+------+------+--------+--------+--------------+
+* Note: The sum of lower-level cells may be larger than their parent cells total, due to cross-hierarchy LUT combining
+
+

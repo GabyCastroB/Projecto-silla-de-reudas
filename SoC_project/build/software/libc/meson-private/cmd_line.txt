@@ -1,0 +1,13 @@
+[options]
+multilib = false
+picocrt = false
+atomic-ungetc = false
+thread-local-storage = false
+io-long-long = true
+format-default = integer
+includedir = picolibc/riscv64-unknown-elf/include
+libdir = picolibc/riscv64-unknown-elf/lib
+
+[properties]
+cross_file = ['/home/julious/Documentos/RG7Digital2/intento3/lab03-2022-2-grupo07-22-2-20221119T191554Z-001/lab03-2022-2-grupo07-22-2/SoC_project/build/software/libc/cross.txt']
+
