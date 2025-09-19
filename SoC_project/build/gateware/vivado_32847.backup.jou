@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1.3 (64-bit)
+# SW Build 2644227 on Wed Sep  4 09:44:18 MDT 2019
+# IP Build 2633630 on Wed Sep  4 12:30:14 MDT 2019
+# Start of session at: Thu Nov 24 10:41:39 2022
+# Process ID: 32847
+# Current directory: /home/julious/Documentos/RG7Digital2/intento3/lab03-2022-2-grupo07-22-2-20221119T191554Z-001/lab03-2022-2-grupo07-22-2/SoC_project/build/gateware
+# Command line: vivado -mode batch -source top.tcl
+# Log file: /home/julious/Documentos/RG7Digital2/intento3/lab03-2022-2-grupo07-22-2-20221119T191554Z-001/lab03-2022-2-grupo07-22-2/SoC_project/build/gateware/vivado.log
+# Journal file: /home/julious/Documentos/RG7Digital2/intento3/lab03-2022-2-grupo07-22-2-20221119T191554Z-001/lab03-2022-2-grupo07-22-2/SoC_project/build/gateware/vivado.jou
+#-----------------------------------------------------------
+source top.tcl
